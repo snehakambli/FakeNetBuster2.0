@@ -1,0 +1,22 @@
+{
+  "report_id": "",
+  "timestamp": "",
+  "content_type": "video",
+  "prediction": "",
+  "confidence_score": 0.0,
+  "fake_probability": 0.0,
+  "risk_level": "",
+  "model_used": "DeepfakeVideoModel (CNN+LSTM)",
+  "possible_generation_method": "",
+  "detected_anomalies": [],
+  "analysis_details": {
+    "suspicious_frames": [],
+    "suspicious_timestamps_sec": [],
+    "total_frames_analyzed": 0,
+    "video_duration_sec": 0,
+    "fps": 0,
+    "manipulated_regions": [],
+    "timeline_visualization_path": ""
+  },
+  "summary": ""
+}

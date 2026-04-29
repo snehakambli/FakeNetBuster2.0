@@ -1,0 +1,50 @@
+image_model:
+  input_size: 224
+  batch_size: 8
+  epochs: 15
+  learning_rate: 0.0001
+  dropout: 0.4
+  freeze_backbone_epochs: 2
+  model_path: "saved_models/image_model_best.pth"
+
+video_model:
+  frame_size: 224
+  batch_size: 2
+  epochs: 30
+  learning_rate: 0.0001
+  sequence_length: 16
+  lstm_hidden: 256
+  lstm_layers: 2
+  model_path: "saved_models/video_model_best.pth"
+
+audio_model:
+  sample_rate: 16000
+  n_mels: 128
+  n_fft: 1024
+  hop_length: 512
+  max_frames: 128
+  batch_size: 32
+  epochs: 30
+  learning_rate: 0.0001
+  gru_hidden: 256
+  gru_layers: 2
+  model_path: "saved_models/audio_model_best.pth"
+
+news_model:
+  max_length: 512
+  vocab_size: 30000
+  embed_dim: 256
+  num_heads: 8
+  num_layers: 4
+  ff_dim: 512
+  batch_size: 32           # text-only, no VRAM pressure
+  epochs: 20
+  learning_rate: 0.0001
+  model_path: "saved_models/news_model.pth"
+
+document_model:
+  input_size: 512
+  batch_size: 8
+  epochs: 25
+  learning_rate: 0.0001
+  model_path: "saved_models/document_model.pth"

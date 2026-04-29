@@ -1,0 +1,56 @@
+server:
+  host: "0.0.0.0"
+  port: 8000
+  debug: false
+  reload: false
+
+database:
+  uri: "mongodb://localhost:27017"
+  name: "fakenetbuster"
+  collections:
+    reports: "analysis_reports"
+    uploads: "uploaded_files"
+
+storage:
+  upload_dir: "uploads/"
+  report_dir: "reports/generated/"
+  model_dir: "saved_models"
+  max_file_size_mb: 500
+  allowed_image_types: ["jpg", "jpeg", "png"]
+  allowed_video_types: ["mp4", "mov", "avi"]
+  allowed_audio_types: ["wav", "mp3"]
+  allowed_document_types: ["pdf", "jpg", "png"]
+
+inference:
+  confidence_threshold: 0.5
+  gpu_enabled: true
+  batch_size: 1
+  video_frame_sample_rate: 5
+  max_video_frames: 100
+
+explainability:
+  gradcam_layer: "layer4"
+  heatmap_alpha: 0.4
+  save_visualizations: true
+  viz_dir: "reports/visualizations/"
+
+# ── News Fact-Check API Keys ─────────────────────────────────────────────────
+# Copy this file to system_configs.yaml and fill in your actual keys.
+#
+# Google Fact Check Tools API:  https://developers.google.com/fact-check/tools/api
+# ClaimBuster API:              https://idir.uta.edu/claimbuster/
+# NewsAPI:                      https://newsapi.org/
+# Google Custom Search API:     https://developers.google.com/custom-search/v1
+# Gemini API:                   https://aistudio.google.com/
+# Groq API:                     https://console.groq.com/
+# Tavily API:                   https://tavily.com/
+# ─────────────────────────────────────────────────────────────────────────────
+news_apis:
+  google_factcheck_api_key: "YOUR_GOOGLE_FACTCHECK_API_KEY"
+  claimbuster_api_key: "YOUR_CLAIMBUSTER_API_KEY"
+  newsapi_key: "YOUR_NEWSAPI_KEY"
+  google_custom_search_api_key: "YOUR_GOOGLE_CUSTOM_SEARCH_API_KEY"
+  google_custom_search_cx: "YOUR_GOOGLE_CSE_CX"
+  gemini_api_key: "YOUR_GEMINI_API_KEY"
+  groq_api_key: "YOUR_GROQ_API_KEY"
+  tavily_api_key: "YOUR_TAVILY_API_KEY"

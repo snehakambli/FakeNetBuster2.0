@@ -1,0 +1,22 @@
+{
+  "report_id": "",
+  "timestamp": "",
+  "content_type": "document",
+  "prediction": "",
+  "confidence_score": 0.0,
+  "fake_probability": 0.0,
+  "risk_level": "",
+  "model_used": "FakeDocumentModel (CNN + NLP)",
+  "possible_generation_method": "",
+  "detected_anomalies": [],
+  "analysis_details": {
+    "ela_score": 0.0,
+    "font_inconsistency_score": 0.0,
+    "seal_regions_detected": 0,
+    "tampered_regions": [],
+    "ocr_text_extracted": false,
+    "ocr_preview": "",
+    "ela_visualization_path": ""
+  },
+  "summary": ""
+}

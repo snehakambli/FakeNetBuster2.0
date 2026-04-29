@@ -1,0 +1,20 @@
+{
+  "report_id": "",
+  "timestamp": "",
+  "content_type": "audio",
+  "prediction": "",
+  "confidence_score": 0.0,
+  "fake_probability": 0.0,
+  "risk_level": "",
+  "model_used": "DeepfakeAudioModel (CNN+GRU)",
+  "possible_generation_method": "",
+  "detected_anomalies": [],
+  "analysis_details": {
+    "pitch_anomaly_score": 0.0,
+    "spectral_inconsistency_score": 0.0,
+    "anomalous_time_frames": [],
+    "spectrogram_shape": [],
+    "spectrogram_visualization_path": ""
+  },
+  "summary": ""
+}

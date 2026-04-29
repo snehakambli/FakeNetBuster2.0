@@ -1,0 +1,19 @@
+{
+  "report_id": "",
+  "timestamp": "",
+  "content_type": "image",
+  "prediction": "",
+  "confidence_score": 0.0,
+  "fake_probability": 0.0,
+  "risk_level": "",
+  "model_used": "DeepfakeImageModel (Dual-Branch CNN)",
+  "possible_generation_method": "",
+  "detected_anomalies": [],
+  "analysis_details": {
+    "noise_inconsistency_score": 0.0,
+    "color_inconsistency_score": 0.0,
+    "gradcam_available": false,
+    "visualization_path": ""
+  },
+  "summary": ""
+}

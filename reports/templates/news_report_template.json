@@ -1,0 +1,35 @@
+{
+  "report_id": "",
+  "timestamp": "",
+  "content_type": "news",
+  "prediction": "",
+  "confidence_score": 0.0,
+  "fake_probability": 0.0,
+  "risk_level": "",
+  "model_used": "FakeNewsModel (Custom Transformer) + Multi-API Fact Check",
+  "possible_generation_method": "",
+  "detected_anomalies": [],
+  "signals": [],
+  "analysis_details": {
+    "source_url": "",
+    "word_count": 0,
+    "suspicious_tokens": [],
+    "text_features": {
+      "clickbait_indicators": 0,
+      "credibility_indicators": 0,
+      "exclamation_ratio": 0.0,
+      "caps_ratio": 0.0
+    },
+    "text_preview": "",
+    "fact_check_apis": {
+      "google_factcheck_available": false,
+      "claimbuster_available": false,
+      "newsapi_available": false
+    },
+    "fact_check_results": [],
+    "cross_reference_count": 0,
+    "claimbuster_score": null
+  },
+  "related_links": [],
+  "summary": ""
+}

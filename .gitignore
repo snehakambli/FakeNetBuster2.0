@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+
+# PyTorch models & checkpoints
+saved_models/
+*.pth
+*.pt
+*.ckpt
+
+# Datasets & raw data
+datasets/
+raw_data/
+*.zip
+uploads/
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/generated/
+reports/visualizations/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage
+.coverage
+htmlcov/
+
+# Uploads & runtime outputs
+backend/uploads/
+backend/logs/
+backend/saved_models/
+backend/reports/generated/
+backend/reports/visualizations/
+
+# Demo samples — large media files, keep folder structure only
+demo_samples/**/*.wav
+demo_samples/**/*.mp4
+demo_samples/**/*.mov
+demo_samples/**/*.MOV
+demo_samples/**/*.avi
+demo_samples/**/*.jpg
+demo_samples/**/*.jpeg
+demo_samples/**/*.png
+
+# Config with secrets — use system_configs.yaml.example instead
+configs/system_configs.yaml
+
+# Runtime upload files
+backend/uploads/*.wav
+backend/uploads/*.mp4
+backend/uploads/*.mov
+backend/uploads/*.jpg
+backend/uploads/*.jpeg
+backend/uploads/*.png
